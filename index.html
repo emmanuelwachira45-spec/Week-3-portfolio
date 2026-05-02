@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emmanuel Wachira — Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=Playfair+Display&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  background: #0a0a0a;
+  color: #e8e4dc;
+  line-height: 1.6;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #222;
+}
+
+nav a {
+  color: #aaa;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+.hero {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+}
+
+.hero p {
+  color: #aaa;
+  max-width: 500px;
+  margin: 1rem auto;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  background: #c8f060;
+  color: #000;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+section {
+  padding: 3rem 2rem;
+  border-top: 1px solid #222;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+.projects {
+  display: grid;
+  gap: 1rem;
+}
+
+.project {
+  padding: 1rem;
+  border: 1px solid #222;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  border-top: 1px solid #222;
+  color: #777;
+}
+
+/* Mobile */
+@media (min-width: 700px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <strong>Emmanuel Wachira</strong>
+  <div>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <h1>Full-Stack Developer</h1>
+  <p>I build clean, responsive websites and web apps using modern tools and best practices.</p>
+  <a href="#projects" class="btn">View Projects</a>
+</section>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I'm a web development student at IYF Weekend Academy. I focus on building fast,
+    simple, and user-friendly applications using HTML, CSS, and JavaScript.
+  </p>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects">
+
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>Responsive personal website built with HTML, CSS, and JavaScript.</p>
+    </div>
+
+    <div class="project">
+      <h3>Task Manager App</h3>
+      <p>A simple to-do app with local storage and task tracking.</p>
+    </div>
+
+    <div class="project">
+      <h3>Landing Page</h3>
+      <p>Clean and modern landing page design with responsive layout.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>If you'd like to work together or have a question, feel free to reach out.</p>
+  <p><strong>Email:</strong> emmanuelwachira45@gmail.com</p>
+</section>
+
+<footer>
+  <p>© 2026 Emmanuel Wachira</p>
+</footer>
+
+</body>
+</html>
